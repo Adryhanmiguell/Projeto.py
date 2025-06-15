@@ -1,2 +1,4 @@
-# ProjetoAV3.py
-Este arquivo será a terceira nota da cadeira de algoritmos.
+# Projeto Terceira Avaliação
+Este repositorio contem a terceira nota da cadeira de Algoritmos.
+
+Linguagem de Programação: Python

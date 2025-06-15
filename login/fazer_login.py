@@ -6,3 +6,4 @@ def logar(usuarios):
         if email == usu["email"] and senha == usu["senha"]:
             usuario = usu['nome']
             return usuario
+    return

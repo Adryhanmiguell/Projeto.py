@@ -1,19 +1,21 @@
 import os
 
-from validacoes import email_gmail, email_e, senha_v
+import validacoes.email_gmail
+import validacoes.email_e
+import validacoes.senha_v
 
 def cadastrar_usuario(usuarios):
 
     nome = input("\nDigite seu nome: ")
     email = input("Digite seu email: ")
 
-    email_gmail.validar_email(email)
+    validacoes.email_gmail.validar_email(email)
 
-    email_e.email_existente(email, usuarios)
+    validacoes.email_e.email_existente(email, usuarios)
 
     senha = input("Digite sua senha: ")
 
-    senha_v.verificar_senha(senha)
+    validacoes.senha_v.verificar_senha(senha)
         
     usuario = {
         'nome': nome,

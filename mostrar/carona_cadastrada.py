@@ -16,4 +16,4 @@ def cadastradas_usuario(caronas, passageiros, usuario):
                 if pasg['passageiros'] > 0:
                     print(f'PASSAGEIROS: {pasg['passageiros']}')     
                 else:
-                    ...                    
+                    pass                    

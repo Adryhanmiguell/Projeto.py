@@ -6,7 +6,6 @@ def cadastrar_carona(usuario, caronas):
     if len(data_da_carona) == 16 and data_da_carona[2] == '/' and data_da_carona[5] == '/' and data_da_carona[10] == ' ' and data_da_carona[13] == ':':
         dia = int(data_da_carona[0:2])
         mes = int(data_da_carona[3:5])
-        ano = int(data_da_carona[6:10])
         hora = int(data_da_carona[11:13])
         minuto = int(data_da_carona[14:16])
 
@@ -28,7 +27,7 @@ def cadastrar_carona(usuario, caronas):
     valor_da_carona = input("Digite o valor da carona: ")
     
     carona = {
-        'motorista': usuario,
+        'motorista': usuario, 
         'origem': local_de_origem,
         'destino': destino_da_carona,
         'data': data_da_carona,

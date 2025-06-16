@@ -79,8 +79,7 @@ while True:
                 passageiros = cadastros.reserva.reservar(caronas, usuarios, usuario)
 
             elif opcao2 == '5': 
-                cancelar_remover.cancelar_reserva.remover_reserva(caronas, usuarios)
-                    
+                cancelar_remover.cancelar_reserva.remover_reserva(caronas, passageiros)
             elif opcao2 == '6':
                 cancelar_remover.remover_carona.remover_carona(caronas, usuario)
             
